@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            textBlue: '#016AFF',
+            textGray: '#A6BAD1',
+            textBb: '#0C3557'
+          },
+          fontSize: {
+            textCaption: '20px'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="flex flex-col justify-center items-center">
+
+  <div>
+    <nav>
+      <ul class="flex flex-row items-center justify-center gap-7 font-semibold ml-[-180px] mb-10">
+        <li><a href="index.html"><img src="images/homepage/calendly_logo.svg" class="w-32 h-32 mr-10"></a></li>
+        <li><a href="individual.html">Individuals</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="enterprise.html">Enterprise</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="flex flex-row items-center gap-14 mb-14">
+    <div class="space-y-7">
+        <p class="font-extrabold text-2xl w-48 text-textBb"><span class="text-textBlue">Power up</span> your teams</p>
+        <p class="text-[10px] w-64 mt-10 mb-7 tracking-tighter">Calendly gives you control over team scheduling with a standardized, scalable process. Its secure, easy to manage, integrates with your team's favorite tools, so you can everyone as efficently and effectively as possible</p>
+        <div class="flex flex-row gap-5">
+           <button class="border h-8 w-20 p-2 rounded-[50px] bg-textBlue text-white text-[8px]">Start for free</button>      
+          <button class="border border-black h-8 w-20 p-2 rounded-[50px] bg-whitetext text-[8px]">Contact sales</button>
+        </div>
+    </div>
+    <div class="relative">
+      <img src="images/teamspage/picture1.jpg" class="w-[300px] h-[240px]">
+
+      <div class="bg-white text-[6px] rounded-lg shadow-lg space-y-4 p-2 absolute bottom-[5px] left-[210px]"> 
+        <div class="flex flex-row gap-5 font-extrabold">
+          <p >Group</p>
+          <p>People</p>
+          <p>Group admin(s)</p>
+        </div>
+        <div class="w-[140px] h-[0.5px] bg-gray-200"></div>
+        <div class="flex flex-row gap-[26px]">
+          <p>Product</p>
+          <p>12</p>
+          <p class="w-14">Bradly Erdman Brenda Lara Danilo Jenkins</p>
+        </div>
+        <div class="w-[140px] h-[0.5px] bg-gray-200"></div>
+        <div class="flex flex-row gap-[31px]">
+          <p>Sales</p>
+          <p class="ml-[4px]">8</p>
+          <p class="ml-[-4px]">Angela Ankuning</p>
+        </div>
+      </div>
+
+      <div class="bg-white text-[8px] space-y-0.5 p-2 rounded-lg shadow-lg absolute left-[260px] bottom-[140px]">
+        <p>Event Link*</p>
+        <a href="calendly.com" class="text-[6px] text-blue-600">calendly.com/teams-connect</a>
+        <div class="border rounded-sm w-32 text-[6px]">
+          <button>30mins team connect</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-textBb text-3xl font-bold w-[500px]">
+      <p>Streamline tasks, extend team <span class="ml-[180px]">reach</span></p>
+  </div>
+
+   <div class="flex flex-row items-center justify-center gap-28 mb-10">
+    <div class="relative">
+      <img src="images/teamspage/color-bg1.png" class="w-72 h-64 z-10">
+      <div class="absolute top-12 left-4">
+        <img src="images/teamspage/picture2.jpg" class="w-64 h-40 rounded-lg">
+        <div class="flex flex-row justify-center items-center bg-white border rounded-r-lg rounded-tl-lg border-textBlue w-[110px] p-2 gap-1 absolute bottom-32 left-[200px]">
+          <img src="images/teamspage/clock-2.png" class="w-6 h-6">
+          <div class="space-y-[-5px]">
+            <p class="text-textBlue text-[12px]"><span class="font-extrabold">15</span>min</p>
+            <p class="text-[8px] font-bold">Meeting</p>
+          </div>
+        </div>
+        <div class="flex flex-row justify-center items-center bg-white border rounded-r-lg rounded-bl-lg border-textBlue w-[110px] p-2 gap-1 absolute top-32 left-[200px]">
+          <img src="images/teamspage/clock-2.png" class="w-6 h-6">
+          <div class="space-y-[-5px]">
+            <p class="text-textBlue text-[12px]"><span class="font-extrabold">15</span>min</p>
+            <p class="text-[8px] font-bold">Meeting</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-[300px] space-y-3">
+      <p class="text-[8px] text-textBlue">AUTOMATED ASSIGNMENT</p>
+      <p class="text-[16px] font-extrabold text-textBb">Control how your team gets booked</p>
+      <p class="text-[8px] leading-4">With Calendly, you can offer sessions that are a few minutes or a few hours, for one invitee or a group. Automated round-robin, first available, or geography based assignments let you easily divvy up meetings in any way that works for your team members</p>
+    </div>
+  </div>
+
+  <p class="text-textBlue text-[10px]">SOLUTIONS</p>
+  <p class="text-[20px] font-extrabold text-textBb tracking-wider mb-10">The right Calendly for the work you do</p>
+
+  <div class="flex flex-row gap-5 mb-16">
+    <div class="flex flex-col rounded-lg shadow-lg">
+      <img src="images/teamspage/picture3.jpeg" class="w-44 h-32 rounded-t-lg shadow-sm">
+      <div class="p-2">
+        <p class="text-[10px] text-textBb font-extrabold ">Sales</p>
+        <p class="text-[8px]">Get to your best leads faster</p>
+        <p class="text-textBlue text-[8px] mt-8">Learn more ></p>
+      </div>
+    </div>
+    <div class="flex flex-col rounded-lg shadow-lg">
+      <img src="images/teamspage/picture4.jpg" class="w-44 h-32 rounded-t-lg shadow-sm">
+      <div class="p-2">
+        <p class="text-[10px] text-textBb font-extrabold ">Recruiting</p>
+        <p class="text-[8px]">Less emailing, more closing</p>
+        <p class="text-textBlue text-[8px] mt-8">Learn more ></p>
+      </div>
+    </div>
+    <div class="flex flex-col rounded-lg shadow-lg">
+      <img src="images/teamspage/picture5.jpg" class="w-44 h-32 rounded-t-lg shadow-sm">
+      <div class="p-2">
+        <p class="text-[10px] text-textBb font-extrabold ">Customer success</p>
+        <p class="text-[8px] w-[130px]">Connects with customers when it matters</p>
+        <p class="text-textBlue text-[8px] mt-5">Learn more ></p>
+      </div>
+    </div>
+    <div class="flex flex-col rounded-lg shadow-lg">
+      <img src="images/teamspage/picture6.webp" class="w-44 h-32 rounded-t-lg shadow-sm">
+      <div class="p-2">
+        <p class="text-[10px] text-textBb font-extrabold ">Education</p>
+        <p class="text-[8px]">Boost student success</p>
+        <p class="text-textBlue text-[8px] mt-8">Learn more ></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="flex flex-row gap-20 mb-20">
+    <div class="space-y-5">
+      <p class="text-[12px] w-10 font-extrabold leading-[14px]">Easy <span class="text-textBlue">ahead</span></p>
+      <p class="text-[6px] w-[150px]">We take the work out of connecting with others so you can accomplish more</p>
+      <select id="language" name="language" class="border w-40 text-[8px]">
+        <option value="english">English</option>
+      </select>
+    </div>
+
+    <div class="space-y-1.5">
+      <p class="text-[10px] font-extrabold">About</p>
+      <p class="text-[8px]">About calendly</p>
+      <p class="text-[8px]">Contact Sales</p>
+      <p class="text-[8px]">Newsroom</p>
+      <p class="text-[8px]">Careers</p>
+      <p class="text-[8px]">Security</p>
+    </div>
+
+    <div class="space-y-1.5">
+      <p class="text-[10px] font-extrabold">Solutions</p>
+      <p class="text-[8px]">Customer Success</p>
+      <p class="text-[8px]">Sales</p>
+      <p class="text-[8px]">Recruiting</p>
+      <p class="text-[8px]">Education</p>
+      <p class="text-[8px]">Marketing</p>
+    </div>
+
+    <div class="space-y-1.5">
+      <p class="text-[10px] font-extrabold">Popular Features</p>
+      <p class="text-[8px]">Embed Calendly</p>
+      <p class="text-[8px]">Availability</p>
+      <p class="text-[8px]">Sending Notifications</p>
+      <p class="text-[8px]">Using Calendly Mobile</p>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>

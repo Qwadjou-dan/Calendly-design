@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            textBlue: '#016AFF',
+            textGray: '#A6BAD1'
+          },
+          fontSize: {
+            textCaption: '20px'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="flex flex-col justify-center items-center">
+
+  <div>
+    <nav>
+      <ul class="flex flex-row items-center justify-center gap-7 font-semibold ml-[-180px] mb-10">
+        <li><a href="index.html"><img src="images/homepage/calendly_logo.svg" class="w-32 h-32 mr-10"></a></li>
+        <li><a href="individual.html">Individuals</a></li>
+        <li><a href="teams.html">Teams</a></li>
+        <li><a href="enterprise.html">Enterprise</a></li>
+      </ul>
+    </nav>
+  </div>
+
+ <div class="flex flex-row gap-10">
+     <div class="w-64">
+       <p class="font-extrabold text-3xl ">The genuis way to work <span class="text-textBlue">better</span></p>
+       <p class="text-[10px] mt-10 mb-7 tracking-tighter">Calendly makes it easier to work smarter when you're working solo. Meeting, sessions and appointments become more efficient ways to achieve success and accomplish goals</p>
+        <button class="border h-10 w-40 p-2 rounded-[50px] bg-black text-white text-[8px]">Sign Up for free</button>
+     </div>
+
+    <div class="relative mb-10">
+      <img src="images/individualpage/picture1.jpeg" class="w-96 h-64 mb-5 ml-5">
+  
+    <div class="flex flex-col gap-0.2 ml-5 p-2 w-[200px] rounded-[10px] bg-white shadow-sm absolute left-[260px] top-[55px]">
+        <p class="text-[6px] font-extrabold">Event Name*</p>
+        <div>
+          <input type="text" name="event_name" placeholder="30 minute intro" class=" border rounded-[5px] placeholder:text-[4px]">
+        </div>
+        <p class="text-[6px] font-extrabold">Event Link*</p>
+        <a href="calendly.com" class="text-textBlue text-[5px]">calendly.com/intoduction</a>
+        <div>
+         <input type="text" name="event_name" placeholder="30 minute introduction" class="border rounded-[5px]  placeholder:text-[4px]">
+        </div>
+        <p class="text-[6px] font-extrabold">Location*</p>
+
+        <div class="border w-[180px] space-y-1 p-2 rounded-[10px]">
+          <div class="flex flex-row items-center gap-1">
+            <img src="images/individualpage/zoom.png" class="w-3 h-3">
+            <p class="text-[6px] font-extrabold">Zoom</p>
+          </div>
+          <div class="h-[0.2px] w-[160px] border"></div>
+          <div class="flex flex-row items-center gap-1">
+            <img src="images/individualpage/location.png" class="w-3 h-3">
+            <div class="text-[5px]">
+              <p class="font-bold">In-person meeting</p>
+              <p>Set an address or place</p>
+            </div>
+          </div>
+          <div class="flex flex-row items-center gap-1">
+            <img src="images/individualpage/phonecall.png" class="w-3 h-3">
+            <div class="text-[5px]">
+              <p class="font-bold">Phone call</p>
+              <p>Send an email to the person hosting the event</p>
+            </div>
+          </div>
+          <div class="flex flex-row items-center gap-1">
+            <img src="images/individualpage/google-meet.png" class="w-3 h-3">
+            <div class="text-[5px]">
+              <p class="font-bold">Google meet</p>
+              <p>Send a text to all invitees of the event</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="flex flex-row items-center justify-center gap-20 mb-10">
+    <div class="relative">
+      <img src="images/individualpage/color-bg1.png" class="w-64 h-64 z-20">
+      <div class="absolute top-5">
+        <img src="images/individualpage/picture2.webp" class="w-52 h-52 rounded-full">
+
+        <div class="flex flex-row rounded-lg bg-white gap-1 w-[170px] shadow-xl absolute bottom-12 left-32 z-10">
+          <div class="space-y-1 w-20">
+            <p class="text-[8px] text-textBlue font-extrabold m-2">Select a time</p>
+            <div>
+              <p class="text-[7px] text-textBlue font-bold">Available time</p>
+              <p class="text-[6px]">8:00am - 9:00am</p>
+            </div>
+            <div class="border bg-gray-200 ml-2 h-10 p-1 rounded-sm">
+              <p class="text-[6px]">2021 Picture Wilson Workshop</p>
+              <div class="w-16 h-[2px] bg-gray-400"></div>
+            </div>
+          </div>
+
+          <div class="flex flex-col justify-end gap-7">
+            <div class="border bg-gray-200 p-1 rounded-sm">
+              <p class="text-[6px]">Breakfast and Meeting</p>
+              <div class="w-10 h-[2px] bg-gray-400"></div>
+            </div>
+            <div class="border bg-gray-200 p-1 rounded-sm">
+              <p class="text-[6px]">Tuesday Standup</p>
+              <div class="w-10 h-[2px] bg-gray-400"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div>
+          <img src="images/individualpage/line1.png" class="w-32 h-20 absolute left-[168px] bottom-[10px]">
+        </div>
+    </div>
+
+    <div class="w-[300px] space-y-3">
+      <p class="text-[8px] text-gray-400">A CURATED CALENDER</p>
+      <p class="text-[16px] font-extrabold">Book up efficiently</p>
+      <p class="text-[8px] leading-4">When invitees select a meeting slot from your schedule, they only see the times you're available, and only the length and type of meeting you want to have. Your schedule fills up efficiently and everyone avoids excess email exchanges</p>
+    </div>
+  </div>
+
+  <div class="flex flex-row items-center justify-center gap-20 mb-20">
+    <div class="w-[200px] space-y-5">
+      <p class="text-[8px] text-gray-400">AUTOMATED NOTIFICATIONS & FOLLOW-UPS</p>
+      <p class="text-[16px] font-extrabold leading-4">Work like you have a personal assistant</p>
+      <p class="text-[8px] leading-4">Because Calendly automates administrative tasks like sending reminder emails and follow-ups you can focus on the work that builds your business and bring customers back for more</p>
+    </div>
+
+    <div class="relative">
+      <img src="images/individualpage/color-bg2.png" class="w-72 h-52">
+      <div class="absolute top-12 left-12 z-20">
+        <img src="images/individualpage/picture3.jpg" class="w-52 h-32 rounded-sm">
+
+        <div class=" w-[130px] border-2 border-t-textBlue border-l-textBlue rounded-tl-[20px] rounded-br-[20px] bg-white gap-1 p-2 absolute bottom-24 left-36">
+          <div class="space-y-0.5 w-20">
+            <div class="flex flex-row items-center justify-center gap-1">
+              <img src="images/individualpage/check.png" class="w-3 h-3 ml-[-15px]">
+              <p class="text-[6px] text-textBlue font-extrabold">Meeting</p>
+            </div>
+            <div class="w-10 h-[2px] bg-gray-200 ml-8"></div>
+            <div class="w-5 h-[2px] bg-gray-200 ml-8"></div>
+
+             <div class="flex flex-row items-center justify-center gap-1">
+              <img src="images/individualpage/clock.png" class="w-3 h-3">
+              <p class="text-[6px] font-extrabold">45 mins</p>
+            </div>
+
+             <div class="flex flex-row items-center justify-center gap-1">
+              <img src="images/individualpage/phonecall.png" class="w-3 h-3">
+              <p class="text-[6px] font-extrabold">ZOOM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="absolute left-[200px] bottom-[-8px] z-10">
+       <img src="images/individualpage/line2.png" class="w-32 h-20">
+      </div>
+
+      <div class="absolute top-[140px] left-[30px] z-20">
+        <img src="images/individualpage/calendly-logo.png" class="w-14 h-10">
+      </div>
+    </div>
+  </div>
+
+  <div class="border h-52 w-[700px] pl-10 pt-10 bg-[#024795] space-y-5 relative mb-5">
+    <p class="w-[210px] text-white text-xl font-extrabold leading-6 ">Find just right-plans for individuals and small teams</p>
+    <button class="border h-8 w-32 p-2 rounded-[50px] bg-white text-[6px] font-bold">See our plans</button>
+    <img src="images/individualpage/shape1.png" class="w-32 h-32 absolute top-[65px] right-[-5px]">
+    <img src="images/individualpage/shape2.png" class="w-32 h-32 absolute bottom-[78px] right-[105px]">
+  </div>
+
+  <div class="flex flex-row gap-14 mb-20">
+    <div class="space-y-5">
+      <p class="text-[12px] w-10 font-extrabold leading-[14px]">Easy <span class="text-textBlue">ahead</span></p>
+      <p class="text-[6px] w-[150px]">We take the work out of connecting with others so you can accomplish more</p>
+      <select id="language" name="language" class="border w-40 text-[8px]">
+        <option value="english">English</option>
+      </select>
+    </div>
+
+    <div class="space-y-1.5">
+      <p class="text-[10px] font-extrabold">About</p>
+      <p class="text-[8px]">About calendly</p>
+      <p class="text-[8px]">Contact Sales</p>
+      <p class="text-[8px]">Newsroom</p>
+      <p class="text-[8px]">Careers</p>
+      <p class="text-[8px]">Security</p>
+    </div>
+
+    <div class="space-y-1.5">
+      <p class="text-[10px] font-extrabold">Solutions</p>
+      <p class="text-[8px]">Customer Success</p>
+      <p class="text-[8px]">Sales</p>
+      <p class="text-[8px]">Recruiting</p>
+      <p class="text-[8px]">Education</p>
+      <p class="text-[8px]">Marketing</p>
+    </div>
+
+    <div class="space-y-1.5">
+      <p class="text-[10px] font-extrabold">Popular Features</p>
+      <p class="text-[8px]">Embed Calendly</p>
+      <p class="text-[8px]">Availability</p>
+      <p class="text-[8px]">Sending Notifications</p>
+      <p class="text-[8px]">Using Calendly Mobile</p>
+    </div>
+  </div>
+</body>
+</html>
